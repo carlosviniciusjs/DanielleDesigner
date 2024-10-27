@@ -285,6 +285,7 @@ border-top-left-radius: 40px;
   .imagemcelular{
     display: block;
     width: 100%;
+    margin: 0;
   }
 
   .topnav {
