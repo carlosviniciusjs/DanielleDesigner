@@ -1,6 +1,6 @@
 .logopc{
   width: 200px;
-  height: 100px;
+  height: 130px;
 }
 
 #topnavpc{
@@ -17,7 +17,10 @@
 
 }
 
-
+#apresenta{
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
 #linksPC a{
   text-decoration: none;
@@ -86,6 +89,10 @@
   padding-top: 40px;
   padding-bottom: 20px;
 
+}
+
+#contatos a{
+  decoration: none;
 }
 
 
@@ -173,7 +180,7 @@ font-weight: bolder;
 }
 
 .titulo{
-font-size: xx-large;
+font-size: 25px;
 font-weight: bold;
 min-height: 80px;
 display: flex;
@@ -272,6 +279,11 @@ border-top-left-radius: 40px;
  /*Versão de celular*/
 
  @media(max-width: 574px) {
+
+  #apresenta{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
   .logopc{
     display: none;
